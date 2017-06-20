@@ -1,0 +1,18 @@
+.diff {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+ins {
+    color: green;
+    background-color: #e6ffe6 !important;
+    display: inline;    
+}
+
+del {
+    color: red;
+    background-color: #ffe6e6 !important;
+    display: inline;
+}
