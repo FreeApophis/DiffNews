@@ -18,8 +18,16 @@ module DiffNews
     @@services = []
     @@store_class = DefaultHistory
 
+    def self.services
+      @@services
+    end
+
     def provider
       self.class.provider
+    end
+
+    def encoding
+      @doc.encoding
     end
   
     def current_revision
