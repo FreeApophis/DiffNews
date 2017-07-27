@@ -14,7 +14,8 @@ module DiffNews
   end
 
   class Service
-    attr_reader :history
+    attr_reader :history, :url
+
     @@services = []
     @@store_class = DefaultHistory
 
