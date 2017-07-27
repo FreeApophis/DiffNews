@@ -11,6 +11,10 @@ module DiffNews
       '20min.ch'
     end
 
+    def self.base_url
+      'http://www.20min.ch/'
+    end
+
     def self.valid_url
       /^https?:\/\/(www.)?20min.ch/
     end

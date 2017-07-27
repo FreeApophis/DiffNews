@@ -11,6 +11,10 @@ module DiffNews
       'faz.net'
     end
 
+    def self.base_url
+      'http://www.faz.net/aktuell/'
+    end
+
     def self.valid_url
       /^https?:\/\/(www.)?faz.net/
     end

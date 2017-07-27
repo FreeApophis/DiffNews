@@ -26,6 +26,10 @@ module DiffNews
       self.class.provider
     end
 
+    def base_url
+      self.class.base_url
+    end
+
     def encoding
       @doc.encoding
     end

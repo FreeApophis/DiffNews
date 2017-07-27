@@ -21,6 +21,10 @@ module DiffNews
       'mock_service'
     end
 
+    def self.base_url
+      'none'
+    end
+
     def self.valid_url
       /mock_me/
     end

@@ -11,6 +11,10 @@ module DiffNews
       'nzz.ch'
     end
 
+    def self.base_url
+      'https://www.nzz.ch/'
+    end
+
     def self.valid_url
       /^https?:\/\/(www.)?nzz.ch/
     end

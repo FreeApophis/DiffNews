@@ -12,6 +12,10 @@ module DiffNews
       'tagesanzeiger.ch'
     end
 
+    def self.base_url
+      'http://www.tagesanzeiger.ch/'
+    end
+
     def self.valid_url
       /^https?:\/\/(www.)?tagesanzeiger.ch/
     end
