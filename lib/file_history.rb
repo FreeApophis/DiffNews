@@ -10,8 +10,8 @@ module DiffNews
   class FileHistory < DefaultHistory
     attr_reader :revisions
 
-    def initialize provider, uuid
-      super provider, uuid
+    def initialize provider, uuid, url
+      super provider, uuid, url
     end
 
     def file_path(extension)

@@ -9,9 +9,10 @@ module DiffNews
   class DefaultHistory
     attr_reader :revisions
 
-    def initialize provider, uuid
+    def initialize provider, uuid, url
       @provider = provider
       @uuid = uuid
+      @url = url
 
       @revisions = []
     end

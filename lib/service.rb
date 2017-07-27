@@ -14,7 +14,7 @@ module DiffNews
   end
 
   class Service
-    attr_reader :history, :url
+    attr_reader :history
 
     @@services = []
     @@store_class = DefaultHistory
@@ -87,7 +87,7 @@ module DiffNews
     end
 
     def load_history
-      @history = @@store_class.new provider, @uuid
+      @history = @@store_class.new provider, @uuid, @url
 
       @history.load
       @history.append_changed_revision title, teaser, text
