@@ -50,7 +50,6 @@ module DiffNews
     end
   
     def self.register_service
-      puts "Registered Service Provider: #{self.provider}"
       @@services << self
     end
 
