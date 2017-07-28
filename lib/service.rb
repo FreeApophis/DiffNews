@@ -46,8 +46,8 @@ module DiffNews
     def initialize url
       @url = url
       @uuid = UUIDTools::UUID.sha1_create(UUIDTools::UUID_URL_NAMESPACE, url)
-      load_document
       load_history
+      load_document
     end
   
     def self.register_service
