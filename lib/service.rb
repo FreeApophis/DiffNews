@@ -46,8 +46,8 @@ module DiffNews
     def initialize url
       @url = url
       @uuid = UUIDTools::UUID.sha1_create(UUIDTools::UUID_URL_NAMESPACE, url)
+      @doc = nil
       load_history
-      load_document
     end
   
     def self.register_service
@@ -90,7 +90,10 @@ module DiffNews
       @history = @@store_class.new provider, @uuid, @url
 
       @history.load
+
+      load_document
       @history.append_changed_revision title, teaser, text
+
       @history.store
     end
   end
