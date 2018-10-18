@@ -14,6 +14,7 @@ task :providers do
     'http://www.tagesanzeiger.ch/sport/tennis/aufschlag-smash-und-tschuess/story/10062709',
     'https://www.nzz.ch/finanzen/abgang-eines-wichtigen-softwarespezialisten-die-tesla-aktie-hat-derzeit-gegenwind-ld.1304770',
     'http://www.20min.ch/schweiz/zuerich/story/Auf-der-Hardbruecke-gibts-Boden-Ampeln-fuer-Velos-14061461',
+    'https://www.watson.ch/schweiz/wirtschaft/371648745-schweizer-im-durchschnitt-weiter-die-reichsten-menschen-der-welt',
     'http://www.faz.net/aktuell/politik/inland/ehe-fuer-alle-bundesrat-stimmt-oeffnung-der-ehe-zu-15095538.html',
   ]
 

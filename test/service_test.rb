@@ -7,6 +7,7 @@ class ServiceTest < Minitest::Test
       'http://www.tagesanzeiger.ch/sport/tennis/aufschlag-smash-und-tschuess/story/10062709' => 'tagesanzeiger.ch',
       'https://www.nzz.ch/international/europa/abstimmung-im-eu-parlament-xxx-fuer-beitrittsverhandlungen-mit-der-tuerkei-ld.1304606' => 'nzz.ch',
       'http://www.20min.ch/digital/news/story/Wi-Fi-Luecke-gefaehrdet-Millionen-von-Handys-12672249' => '20min.ch',
+      'https://www.watson.ch/digital/schweiz/608862072-nicht-nur-ethereum-im-zuger-crypto-valley-gibt-es-nun-fuenf-milliardenschwere-firmen' => 'watson.ch'
     }
 
     providers.each do |url, provider|
